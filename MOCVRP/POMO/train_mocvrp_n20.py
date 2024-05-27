@@ -19,7 +19,7 @@ sys.path.insert(0, "../..")  # for utils
 # import
 import logging
 from utils.utils import create_logger, copy_all_src
-from MOCVRPTrainer import CVRPTrainer as Trainer
+from MOCVRPTrainer_cost import CVRPTrainer as Trainer
 
 
 ##########################################################################################
@@ -54,7 +54,7 @@ optimizer_params = {
 trainer_params = {
     'use_cuda': USE_CUDA,
     'cuda_device_num': CUDA_DEVICE_NUM,
-    'epochs': 200,
+    'epochs': 100,
     'train_episodes': 100 * 1000,
     'train_batch_size': 64,
     'prev_model_path': None,
@@ -72,7 +72,7 @@ trainer_params = {
     },
     'model_load': {
         'enable': False,  # enable loading pre-trained model
-        'path': './result/saved_CVRP20_model',  # directory path of pre-trained model and log files saved.
+        'path': './result/saved_CVRP20_model_normalpref',  # directory path of pre-trained model and log files saved.
         'epoch': 200,  # epoch version of pre-trained model to laod.
     }
 }
