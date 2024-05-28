@@ -4,7 +4,7 @@ from logging import getLogger
 import math
 
 from MOCVRPEnv import CVRPEnv as Env
-from MOCVRPModel import CVRPModel as Model
+from MOCVRPModel_kan import CVRPModel as Model
 
 from torch.optim import Adam as Optimizer
 from torch.optim.lr_scheduler import MultiStepLR as Scheduler
