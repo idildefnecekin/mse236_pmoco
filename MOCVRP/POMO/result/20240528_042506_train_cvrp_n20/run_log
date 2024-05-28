@@ -1,0 +1,22 @@
+[2024-05-28 04:25:08] train_mocvrp_n20.py(113) : DEBUG_MODE: False
+[2024-05-28 04:25:08] train_mocvrp_n20.py(114) : USE_CUDA: False, CUDA_DEVICE_NUM: 0
+[2024-05-28 04:25:08] train_mocvrp_n20.py(115) : env_params{'problem_size': 20, 'pomo_size': 20}
+[2024-05-28 04:25:08] train_mocvrp_n20.py(115) : model_params{'embedding_dim': 128, 'sqrt_embedding_dim': 11.313708498984761, 'encoder_layer_num': 6, 'qkv_dim': 16, 'head_num': 8, 'logit_clipping': 10, 'ff_hidden_dim': 512, 'eval_type': 'argmax'}
+[2024-05-28 04:25:08] train_mocvrp_n20.py(115) : optimizer_params{'optimizer': {'lr': 0.0001, 'weight_decay': 1e-06}, 'scheduler': {'milestones': [180], 'gamma': 0.1}}
+[2024-05-28 04:25:08] train_mocvrp_n20.py(115) : trainer_params{'use_cuda': False, 'cuda_device_num': 0, 'epochs': 100, 'train_episodes': 100000, 'train_batch_size': 64, 'prev_model_path': None, 'logging': {'model_save_interval': 5, 'img_save_interval': 100, 'log_image_params_1': {'json_foldername': 'log_image_style', 'filename': 'style_cvrp_20.json'}, 'log_image_params_2': {'json_foldername': 'log_image_style', 'filename': 'style_loss_1.json'}}, 'model_load': {'enable': False, 'path': './result/saved_CVRP20_model_normalpref', 'epoch': 200}}
+[2024-05-28 04:25:08] train_mocvrp_n20.py(115) : logger_params{'log_file': {'desc': 'train_cvrp_n20', 'filename': 'run_log', 'filepath': './result/20240528_042506_train_cvrp_n20'}}
+[2024-05-28 04:25:09] MOCVRPTrainer_cost.py(68) : =================================================================
+[2024-05-28 04:25:12] MOCVRPTrainer_cost.py(133) : Epoch   1: Train  64/100000(0.1%)  Obj1 Score: 10.3161, Obj2 Score: 3.6328,  Loss: -0.1755
+[2024-05-28 04:25:14] MOCVRPTrainer_cost.py(133) : Epoch   1: Train 128/100000(0.1%)  Obj1 Score: 10.3057, Obj2 Score: 3.6232,  Loss: -0.1595
+[2024-05-28 04:25:16] MOCVRPTrainer_cost.py(133) : Epoch   1: Train 192/100000(0.2%)  Obj1 Score: 10.3512, Obj2 Score: 3.6255,  Loss: -0.1486
+[2024-05-28 04:25:19] MOCVRPTrainer_cost.py(133) : Epoch   1: Train 256/100000(0.3%)  Obj1 Score: 10.4054, Obj2 Score: 3.6395,  Loss: -0.1460
+[2024-05-28 04:25:21] MOCVRPTrainer_cost.py(133) : Epoch   1: Train 320/100000(0.3%)  Obj1 Score: 10.4252, Obj2 Score: 3.6502,  Loss: -0.1449
+[2024-05-28 04:25:22] MOCVRPTrainer_cost.py(133) : Epoch   1: Train 384/100000(0.4%)  Obj1 Score: 10.4226, Obj2 Score: 3.6412,  Loss: -0.1483
+[2024-05-28 04:25:23] MOCVRPTrainer_cost.py(133) : Epoch   1: Train 448/100000(0.4%)  Obj1 Score: 10.4075, Obj2 Score: 3.6562,  Loss: -0.1560
+[2024-05-28 04:25:23] MOCVRPTrainer_cost.py(133) : Epoch   1: Train 512/100000(0.5%)  Obj1 Score: 10.4095, Obj2 Score: 3.6593,  Loss: -0.1610
+[2024-05-28 04:25:24] MOCVRPTrainer_cost.py(133) : Epoch   1: Train 576/100000(0.6%)  Obj1 Score: 10.4314, Obj2 Score: 3.6741,  Loss: -0.1735
+[2024-05-28 04:25:25] MOCVRPTrainer_cost.py(133) : Epoch   1: Train 640/100000(0.6%)  Obj1 Score: 10.4281, Obj2 Score: 3.6736,  Loss: -0.1781
+[2024-05-28 04:42:25] MOCVRPTrainer_cost.py(138) : Epoch   1: Train (100%)  Obj1 Score: 10.2813, Obj2 Score: 3.5771,  Loss: -0.1993
+[2024-05-28 04:42:25] MOCVRPTrainer_cost.py(83) : Epoch   1/100: Time Est.: Elapsed[17.26m], Remain[28.48h]
+[2024-05-28 04:42:25] MOCVRPTrainer_cost.py(91) : Saving trained_model
+[2024-05-28 04:42:25] MOCVRPTrainer_cost.py(68) : =================================================================
